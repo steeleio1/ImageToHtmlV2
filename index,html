@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>ImageToHtmlV2</title>
+  <link href="normalize.css" rel="stylesheet">
+  <!-- google fonts -->
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- =======================================================navbar===================== -->
+<div class="navbarcontainer">
+	<span class="yourlogo">YOUR LOGO</span>
+	<span class="home">Home</span>
+	<span class="pricing">Pricing</span>
+	<span class="contact">Contact</span>
+	</div>
+
+<!-- =======================================================banner container ===============-->
+<div class="bannercontainer"> 
+	<span class="bannertext">Simple Pricing Try before you buy</span>
+</div>
+
+<!-- ========================================================pricing boxes==================-->
+<div class="pricingcontainer">
+
+<div class= "pricebox1">
+<div class= "colorbox1">
+<ul>
+	<li class="top">PERSONAL</li>
+	<li class="amount">$5</li>
+	<li class="bottom">PER MONTH</li>
+	</ul>
+	</div>
+<ul>
+	<li class="priceboxtext">Free setup</li>
+	<li class="priceboxtext">Custom sub-domain</li>
+	<li class="priceboxtext">1GB file storage</li>
+	<li class="priceboxtext">1 database</li>
+	<li class="priceboxtext">Unlimited bandwidth</li>
+	<li class="choosetext">Choose</li>
+	</ul>
+
+	</div>
+<div class= "pricebox2">
+<div class= "colorbox2">
+<ul>
+	<li class="top">SMALL BUSINESS</li>
+	<li class="amount">$25</li>
+	<li class="bottom">PER MONTH</li>
+	</ul>
+	</div>
+<ul> 
+	<li class="priceboxtext">Free setup</li>
+	<li class="priceboxtext">Use your own domain</li>
+	<li class="priceboxtext">10GB file storage</li>
+	<li class="priceboxtext">5 databases</li>
+	<li class="priceboxtext">Unlimited bandwidth</li>
+	<div class="choosetext">Choose</div>
+	</ul>
+
+
+	</div>
+
+
+<div class= "pricebox3">
+<div class= "colorbox3">
+<ul>
+	<li class="top">ENTERPRISE</li>
+	<li class="amount">$45</li>
+	<li class="bottom">PER MONTH</li>
+	</ul>
+	</div>
+	<div class="button box">
+<ul>
+	<li class="priceboxtext">Free setup</li>
+	<li class="priceboxtext">Use your own domain</li>
+	<li class="priceboxtext">Premium customer support</li>
+	<li class="priceboxtext">Unlimited file storage</li>
+	<li class="priceboxtext">Unlimited bandwidth</li>
+	<div class="choosetext">Choose</div>
+	<div class="button box">		
+	</div>
+	</ul>
+
+	</div>
+
+	</div>
+	
+
+</div>
+
+<!--====================================================== paragraph container =============-->
+<div class="paragraphcontainer">
+
+<div class= "titlebox1">
+	<ul>
+		<li class="title1">GET STARTED TODAY
+		</li>
+		<p class="Paragraph1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.></p>
+	</ul>
+	</div>
+
+<div class= "titlebox2">
+	<ul>
+		<li class="title2">PAY MONTHLY OR ANNUALLY
+		</li>
+		<p class="Paragraph1">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.> </p>
+	</ul>
+	</div>
+
+<div class= "titlebox3">
+	<ul>
+		<li class="title3">24/7 CUSTOMER SUPPORT
+		</li>
+		<p class="Paragraph1">Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).> </li>
+	</ul>
+	</div>
+
+<div class= "titlebox4">
+	<ul>
+		<li class="title4">CANCEL YOUR PLAN ANYTIME</li>
+		<p class="Paragraph1">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.> </p>
+	</ul>
+	</div>
+
+</div>
+
+<!-- ===============================================footer container ========================-->
+<div class="footercontainer">
+
+<span class="footertext">
+	<span class="trynow">Try now</span>
+	<span class="creditcard">for 14 days. No credit card required. Header image courtesy of</span>
+	<span class="unsplash">Unsplash</span>
+</span>
+</div>
+
+</body></html>
