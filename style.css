@@ -1,29 +1,33 @@
 
+.fontfamily {
+	font-family: Maven+Pro;
+}
+
 /*---------------------------------------Nav bar container------------------------*/
 .navbarcontainer {
-	border: solid pink 3px;
-	height: 29px;
+/*	border: solid pink 3px;*/
+	height: 28px;
 }
 
 .yourlogo {
 	color: #3C434B;
-	margin-left: 10px;
-	margin-right: 30px;
-	font-size: 8px;
+	margin-left: 14px;
+	margin-right: 25px;
+	font-size: 14px;
 }
 
 .home {
 	color: #3C434B;
 	margin-left: 0px;
-	margin-right: 5px;
-	font-size: 7px;
+	margin-right: 24px;
+	font-size: 14px;
 }
 
 .pricing {
 	color: #3C434B;
 	margin-left: 0px;
-	margin-right: 5px;
-	font-size: 7px;
+	margin-right: 23px;
+	font-size: 14px;
 	font-weight: bold;
 }
 
@@ -31,34 +35,77 @@
 	color: #3C434B;
 	margin-left: 0px;
 	margin-right: 5px;
-	font-size: 7px;
+	font-size: 14px;
 }
 
 /* --------------------------------------bannercontainer---------------------------*/
 .bannercontainer {
-	border: solid green 3px;
-	height: 350px;
+/*		border: solid green 3px;*/
+	height: 330px;
+	width: 1099px;
+	margin-top: 0px;
+	margin-left: 0px;
+
+	/*position: relative;*/
 }
-.bannertext {
-	font-size: 30px;
+
+.mainimage {
+	float: left;
+
+	margin-top: 0px;
+	margin-left: 0px;
+
 }
+
+	h1 { 
+/*		border: solid red 1px;*/
+		position: absolute;
+		text-align: center;
+		top: 100px;
+		left: 410px;
+		height: 50px;
+		width: 300px;
+		color: #FFFFFF;
+		font-size: 40px;
+		margin-top: 55px;
+
+	 }
+
+	 	h2 { 
+/*		border: solid green 1px;*/
+		position: absolute;
+		text-align: center;
+		top: 140px;
+		left: 305px;
+		height: 40px;
+		width: 500px;
+		color: #FFFFFF;
+		font-size: 40px;
+				margin-top: 60px;
+
+	 }
+
+
 
 /*----------------------------------------pricing container---------------------------*/
 .pricingcontainer {
-	border: solid purple 3px;
+	position: relative;
+/*	border: solid purple 3px;*/
 	height: 500px;
+	width: 1100px;
+	margin-top: 28px;
 }
 
 .pricebox1{
 	border: solid grey 1px;
-height: 473px;
-width: 254px;
-background: #F7F7F7;
-float: left;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 145px;
-margin-right: 5px;
+	height: 473px;
+	width: 254px;
+	background: #F7F7F7;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 155px;
+	margin-right: 5px;
 }
 .colorbox1 {
 	float: left;
@@ -69,47 +116,47 @@ margin-right: 5px;
 
 .pricebox2{
 	border: solid grey 1px;
-height: 473px;
-width: 254px;
-background: #F7F7F7;
-float: left ;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 5px;
-margin-right: 5px;
+	height: 473px;
+	width: 254px;
+	background: #F7F7F7;
+	float: left ;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	margin-right: 5px;
 }
 .colorbox2 {
 	float: left;
 	height: 180px;
-  width: 254px;
-   background: #2C4985;
+  	width: 254px;
+   	background: #2C4985;
 }
 
 .pricebox3{
 	border: solid grey 1px;
-height: 473px;
-width: 254px;
-background: #F7F7F7;
-float: left;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 5px;
-margin-right: 5px;
+	height: 473px;
+	width: 254px;
+	background: #F7F7F7;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	margin-left: 6px;
+	margin-right: 5px;
 }
 .colorbox3 {
 	float: left;
 	height: 180px;
-  width: 254px;
-   background: #111111;
+  	width: 254px;
+   	background: #111111;
 }
 
 
 .top {
 	color: white;
 	text-align: center;
-	padding-top: 1px;
+	padding-top: 8px;
 	padding-bottom: 1px;
-	font-size: 20px;
+	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -117,49 +164,62 @@ margin-right: 5px;
 	color: white;
 	text-align: center;
 	padding-top: 1px;
-	padding-bottom: 1px;
-	font-size: 60px;
+/*	padding-bottom: 1px;*/
+	font-size: 80px;
 }
 
 .bottom {
 	color: white;
 	text-align: center;
-	padding-top: 1px;
+/*	padding-top: 1px;*/
 	padding-bottom: 1px;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .priceboxtext {
-	color: darkgrey;
+	float: left;
+	height: 224px;
+	width: 254px;
+	color: #6A777C;
 	text-align: center;
-	padding: 15px;
 	font-size: 15px;
 	border-bottom: solid black 1px;
+/*	border: solid red 2px;*/
 }
 
-.choosetext {
-	/*display: block;*/
-	/*display: inline;*/
-	height: 72px;
-	width: 254px;	
-	position: absolute;
-	background: white;
-	color: black;
+.priceboxtext li{
+	padding: 12px;
+	border-bottom: solid grey 1px;
+}
+
+.buttonbackground {
+/*	border: solid red 3px;*/
 	text-align: center;
-	border: solid green 1px;
-	/*vertical-align: middle;*/
-	/*padding-top: 20px;*/
-	/*padding: 15px;*/
+	height: 47px;
+	width: 254px;
+	background: white;
+	clear: left;
+	padding-top: 21px;
+
+
+
 }
 
-.buttonbox {
-	border: pink 2px;
+ button {
+	height: 30px;
+	width: 80px;	
+	background: white;
+	color: #272727;
+	text-align: center;
+	border-radius: 20%;
 }
 
 /*-----------------------------------------paragraph container--------------*/
 .paragraphcontainer {
-border: solid yellow 3px;
-height: 390px;
+/*border: solid yellow 3px;*/
+	height: 390px;
+	width: 1000px;
+	margin-bottom: 8px;
 }
 
 ul {
@@ -172,90 +232,111 @@ li {
 
 .titlebox1{
 	padding-bottom: 120px;
-height: 60px;
-max-width: 350px;
-float: left ;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 162px;
-margin-right: 5px;
-border: solid yellow 1px;
-background: #F7F7F7;
+	height: 56px;
+	max-width: 350px;
+	float: left ;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: 177px;
+	margin-right: 5px;
+/*	border: solid yellow 1px;*/
+/*background: #F7F7F7;*/
+}
+.title1 {
+/*	padding-bottom: 10px;*/
+	font-size: 16px;
+	font-stretch: ultra-expanded;
+}
+.Paragraph1{
+	font-size: 15px;
 }
 
 .titlebox2{
 	padding-bottom: 120px;
-	padding-right: 30%;
-height: 60px;
-max-width: 20%;
-float: left ;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 46px;
-margin-right: 5px;
-border: solid yellow 1px;
-background: #F7F7F7;
+/*	padding-right: 30%;*/
+	height: 56px;
+	max-width: 350px;
+	float: left ;
+	margin-top: 25px;
+	margin-bottom: 0px;
+	margin-left: 46px;
+	margin-right: 5px;
+/*border: solid yellow 1px;*/
+/*background: #F7F7F7;*/
 
 }
+.title2 {
+	/*padding-bottom: 10px;*/
+	font-size: 14px;
+	font-stretch: ultra-expanded;
+}
+
 .titlebox3{
 	padding-bottom: 100px;
-height: 60px;
-max-width: 350px;
-float: left ;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 160px;
-margin-right: 5px;
-border: solid yellow 1px;
-background: #F7F7F7;
+	height: 60px;
+	max-width: 350px;
+	float: left ;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 177px;
+	margin-right: 5px;
+/*	border: solid yellow 1px;*/
+/*background: #F7F7F7;*/
+}
+.title3 {
+/*	padding-bottom: 10px;*/
+	font-size: 14px;
+	font-stretch: ultra-expanded;
 }
 
 .titlebox4{
 	padding-bottom: 100px;
-height: 60px;
-max-width: 20%;
-float: left ;
-margin-top: 20px;
-margin-bottom: 0px;
-margin-left: 45px;
-margin-right: 5px;
-border: solid yellow 1px;
-background: #F7F7F7;
+	height: 60px;
+	max-width: 350px;
+	float: left ;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 45px;
+	margin-right: 5px;
+/*border: solid yellow 1px;*/
+/*background: #F7F7F7;*/
 }
+.title4{ 
+/*	padding-bottom: 10px;*/
+	font-size: 14px;
+	font-stretch: ultra-expanded;
+ }
 
 
 /*-----------------------------------------footercontainer---------------------*/
 .footercontainer {
-	border: solid blue 3px;
+/*	border: solid blue 3px;*/
 	height: 40px;
-	background: black;
+	background: #111111;
 	text-align: center;
 	padding-top: 15px;
 	width: 1100px;
 		}
+
 .footertext {
 
 }
 
 .trynow {
-	color: white;
-	/*vertical-align: middle;*/
+	color: #E8E8E8;
 	text-decoration: underline;
 	font-size: 14px;
-	/*padding-left: 100px;
-	padding-top: 7px;*/
-
+	font-stretch: ultra-expanded;
 }
 .creditcard {
-	color: white;
-	/*vertical-align: middle;*/
-	font-size: 10px;
+	color: #8C8C8C;
+	font-size: 14px;
+	font-stretch: ultra-expanded;
 }
 .unsplash {
-	color: white;
-	/*vertical-align: middle;*/
+	color: #E8E8E8;
 	text-decoration: underline;
 	font-size: 14px;
-	/*padding-right: 100px;*/
+	font-stretch: ultra-expanded;
 }
 
